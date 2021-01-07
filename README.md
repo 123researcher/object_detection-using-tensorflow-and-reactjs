@@ -27,3 +27,7 @@ The counterpart of this "single-shot" characteristic, is an architecture that us
  ## Feature extraction
  
  COCO-SSD default's feature extractor is lite_mobilenet_v2, an extractor based on the MobileNet architecture.
+ 
+ ## create a React web app for object_detection
+it takes as input your webcam live video feed and sends its frames to a pre-trained COCO SSD model to detect objects on it.
+The first step is to load the TensorFlow.js library, the COCO model, and the React library from a CDN (Content Delivery Network).
