@@ -32,7 +32,7 @@ The counterpart of this "single-shot" characteristic, is an architecture that us
  
  COCO-SSD default's feature extractor is lite_mobilenet_v2, an extractor based on the MobileNet architecture.
 ## Labeling Data
-With all the pictures gathered, we come to the next step — labeling the data. Labeling is the process of drawing bounding boxes around the desired objects. LabelImg is a great tool for creating an object detection dataset.
+ Labeling is the process of drawing bounding boxes around the desired objects. LabelImg is a great tool for creating an object detection dataset.
 LabelImg supports two formats, PascalVOC and Yolo.
  
  ## create a React web app for object_detection
