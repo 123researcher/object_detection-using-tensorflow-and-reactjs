@@ -1,5 +1,5 @@
 
-### Building a Object Detection Model with TensorFlow’s Object Detection API
+### Building an Object Detection Model with TensorFlow’s Object Detection API
 
 ## TensorFlow.js 
 
