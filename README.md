@@ -26,10 +26,14 @@ There are two main ways to get this model in your JavaScript project: via script
 ## ROI
 
 The counterpart of this "single-shot" characteristic, is an architecture that uses a "proposal generator," a component whose purpose is to search for regions of interests within an image.
+
  
- ## Feature extraction
+## Feature extraction
  
  COCO-SSD default's feature extractor is lite_mobilenet_v2, an extractor based on the MobileNet architecture.
+## Labeling Data
+With all the pictures gathered, we come to the next step — labeling the data. Labeling is the process of drawing bounding boxes around the desired objects. LabelImg is a great tool for creating an object detection dataset.
+LabelImg supports two formats, PascalVOC and Yolo.
  
  ## create a React web app for object_detection
 it takes as input your webcam live video feed and sends its frames to a pre-trained COCO SSD model to detect objects on it.
